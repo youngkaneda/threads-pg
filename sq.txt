@@ -1,0 +1,6 @@
+create table tb (
+  id int not null primary key,
+  name varchar(100),
+  edited boolean,
+  deleted boolean
+)
